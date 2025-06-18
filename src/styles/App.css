@@ -1,0 +1,154 @@
+.App{
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  
+}
+
+
+/*Product list*/
+.products-container > h1{
+  padding-top: 50px ;
+
+}
+
+.products-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 55px 40px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 374.22px;
+    border: 2px solid rgba(0, 6, 77, 0.681);
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 15px 10px;
+    
+}
+
+.card:hover{
+    transform: scale(1.06, 1.06);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.card > h2{
+    padding-top: 10px;
+}
+
+.card > p{
+    padding: 4px 0;
+}
+
+.card > p:nth-child(3){
+    color: rgb(92, 92, 92);
+}
+
+.card > img{
+    width: 220px;
+    height: 230px;
+    border-radius: 10px; 
+}
+
+/* Contacts */
+.contacts{
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacts-br > h1{
+    padding-bottom: 15px;
+    font-size: 36px;
+}
+
+.contacts-br > p {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+svg{
+    padding-top: 20px;
+}
+
+.contacts-br{
+    border: 5px solid rgb(12, 0, 181);
+    padding: 60px 70px 40px 70px;
+    border-radius: 20px;
+    background-color: rgba(120, 120, 248, 0.263);
+}
+
+/*Home*/
+
+.home{
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home > p {
+    font-size: 19px;
+    padding-top: 5px;
+}
+
+/*Navigation*/
+
+nav{
+    width: 100vw;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+    font-size: 19px;
+    background-color: #0042be;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.nav-link:hover{
+    transform: scaleX(1.1);
+    transition: 0.3s ease-in-out;
+    color: rgb(178, 178, 178);
+}
+
+.nav-link{
+    padding: 0 10px;
+    color: white;
+}
+
+.nav-link:active{
+    color: rgb(76, 64, 0);
+    transition: 0s;
+}
+
