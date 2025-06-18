@@ -15,7 +15,7 @@ const totalPrice = cart.reduce((total, product) => total + (+product.price), 0)
                         {cart.map((product) => (
                             <li className="cart-product" key={product.id}>
                                 <h3>{product.name}</h3>
-                                <img width='100px' src={product.image} alt='product.image'/>
+                                <img width='100px' loading="lazy" src={product.image} alt='product.image'/>
                                 <p>Цена: {product.price}тг.</p>
                                 <button onClick={() => removeFromCart(product.id)}>Удалить</button>
                             </li>
