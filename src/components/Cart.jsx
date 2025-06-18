@@ -28,4 +28,4 @@ const totalPrice = cart.reduce((total, product) => total + (+product.price), 0)
     )
 }
 
-export default Cart
+export default Cart;
